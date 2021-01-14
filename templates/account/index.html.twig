@@ -5,4 +5,7 @@
 {% block content %}
 <h1>Compte</h1>
 <p>Bienvenue {{ app.user.firstname }}</p>
+
+<a href=" {{ path('account_password') }}"> Modifier le mot de passe</a>
+<br>
 {% endblock %}
